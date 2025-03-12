@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/api', schoolRoutes);
 
 // Start the server
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
 module.exports = app;
